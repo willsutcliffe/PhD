@@ -1,0 +1,26 @@
+\documentclass{beamer}
+\usetheme{Copenhagen}
+%\usecolortheme{beaver}
+\usepackage{textpos}
+
+\title{The title}
+\author[The author]{\includegraphics[height=1cm,width=1.5cm]{lhcblogo.jpg}\\The Author}
+\institute[Inst.]{The Institute}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{100mm}(.85\textwidth,-1cm)
+\includegraphics[height=1cm,width=1.5cm]{lhcblogo.jpg}
+\end{textblock*}}
+
+\begin{frame}{Motivation}
+Now the logo is visible
+\end{frame}
+
+\end{document}

@@ -1,0 +1,11 @@
+This is MetaPost, version 1.211 (TeX Live 2010) (kpathsea version 6.0.0) (mem=mpost 2010.12.10)  18 FEB 2013 16:01
+**feyn4.tex
+(./feyn4.tex
+>> begin
+! Isolated expression.
+<to be read again> 
+                   {
+l.2 \begin{
+           fmffile}{fgraph1}
+? X
+

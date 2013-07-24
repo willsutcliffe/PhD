@@ -1,0 +1,35 @@
+
+\begin{fmffile}{fgraph1}
+  \centering
+%(along, up)
+  \begin{fmfgraph*}(120,120)
+    %bottom and top verticies
+    \fmfstraight
+    \fmfleft{i0,i1,i2,id1,id2,i3,i4,i5,i6}
+    \fmflabel{$u$}{i6}    \fmflabel{$d$}{i5}
+     \fmflabel{$b$}{i4}
+    \fmfright{o0,o1,o2,od1,od2,o3,o4,o5,o6}
+     \fmflabel{$u$}{o6}    \fmflabel{$d$}{o5}
+     \fmflabel{$u$}{o4}
+      \fmflabel{$\overline{\nu_{l}}$}{o2}
+       \fmflabel{$l^{-}$}{o3}
+%incoming proton to gluon vertices
+    \fmf{fermion}{i5,o5}
+     \fmf{fermion}{i6,o6}
+%tension shifts vertex to one side
+    \fmf{fermion,tension=1.5}{i4,v2}
+    \fmf{fermion}{v2,o4}
+    \fmffreeze
+    \fmf{fermion}{o2,v3,o3}
+    \fmf{fermion}{o2,v3}
+    \fmf{fermion}{v3,o3}
+    \fmf{photon, tension=2,label=$W^{-}$}{v2,v3}
+%phantom centres the W->cs vertex
+    \fmf{phantom,tension=1.5}{i1,v3}
+
+    \fmfv{lab=$V_{ub}$}{v2}
+    %\fmfv{lab=$V_{cs}$,lab.dist=-.2w}{v3}
+    \end{fmfgraph*}
+
+\end{fmffile}
+

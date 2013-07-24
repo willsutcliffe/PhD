@@ -1,0 +1,11 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}
+\defcounter {refsection}{0}
+\beamer@endinputifotherversion {3.10pt}
+\defcounter {refsection}{0}
+\beamer@sectionintoc {1}{Context and Motivation}{3}{0}{1}
+\defcounter {refsection}{0}
+\beamer@sectionintoc {2}{Current $B_{s} \rightarrow K \mu \nu $ line}{7}{0}{2}
+\defcounter {refsection}{0}
+\beamer@sectionintoc {3}{$\Lambda _{b} \rightarrow p \mu \nu $ Line}{11}{0}{3}
+\defcounter {refsection}{0}
+\beamer@sectionintoc {4}{Conclusion}{16}{0}{4}
